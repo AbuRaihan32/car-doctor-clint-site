@@ -5,7 +5,7 @@ import auth from "../Firebase/Firebase.init";
 import { Navigate } from "react-router-dom";
 
 const axiosSecure = axios.create({
-  baseURL: "http://localhost:5000",
+  baseURL: "https://car-doctor-server-lake-zeta.vercel.app",
   withCredentials: true,
 });
 
